@@ -8,7 +8,8 @@ import {
   AccordionIcon,
   Text,
   Link,
-  Flex,} from "@chakra-ui/react";
+  Flex,
+} from "@chakra-ui/react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -43,7 +44,7 @@ export default function Department({ data }) {
 
   useEffect(() => {
     setCurrentDepartments(() => data.data[Number(departmentsId) - 1]);
-  }, [departmentsId]);
+  }, [router.query]);
   const shoppingCount = Object.keys(data.data).length;
 
   if (router.asPath == "/departments/0") {
@@ -53,6 +54,7 @@ export default function Department({ data }) {
     <>
       <Flex pos={"relative"} width={"100%"} height="60vh" dir="rtl">
         <Image
+          alt="dapartment image"
           src={shoppingBg}
           layout="fill"
           objectFit="cover"
@@ -118,6 +120,8 @@ export default function Department({ data }) {
                   ? data.data[8].img
                   : data.data[Number(departmentsId) - 2].img
               }
+              alt="dapartment image"
+
               layout="fill"
               objectFit="cover"
               objectPosition={"0% 20%"}
@@ -149,6 +153,8 @@ export default function Department({ data }) {
             <Image
               src={currentDepartment.img}
               layout="fill"
+              alt="dapartment image"
+
               objectFit="cover"
               objectPosition={"0% 20%"}
             />
@@ -187,6 +193,7 @@ export default function Department({ data }) {
                   ? data.data[0].img
                   : data.data[Number(departmentsId)].img
               }
+              alt="dapartment image"
               layout="fill"
               objectFit="cover"
               objectPosition={"0% 20%"}
@@ -253,8 +260,6 @@ export default function Department({ data }) {
           </Accordion>
         </Box>
       </Box>
-
-
     </>
   );
 }
