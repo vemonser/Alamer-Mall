@@ -1,7 +1,7 @@
 import ImgOverLay from "../../components/map/ImgOverLay";
 
 import { useRouter } from "next/router";
-import Map from "../../components/map/map";
+import Map from "../../components/map/Map";
 import SliderTry from "../../components/slider/sliderTry";
 
 
