@@ -1,0 +1,113 @@
+{
+    "status": 200,
+    "message": "categories",
+    "data": [
+        {
+            "id": 1,
+            "name": "ar2",
+            "desc": "fgf",
+            "img": "http://127.0.0.1:8000/images/category/16584927341266596980category.png",
+            "department_name": "التسوق",
+            "department_desc": "تجربة تسوق فريدة تحت سقف واحد",
+            "department_img": "http://127.0.0.1:8000/images/department/1658492584113836295department.png",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "ar1",
+                    "img": "http://127.0.0.1:8000/images/Shop/16584928011121808012Shop.png",
+                    "link": "df';ds;fdsk;",
+                    "flooer": "g9",
+                    "phone": [
+                        {
+                            "phone": "0111"
+                        },
+                        {
+                            "phone": "1111"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "ar1",
+                    "img": "http://127.0.0.1:8000/images/Shop/1658676822583913892Shop.png",
+                    "link": "df';ds;fdsk;",
+                    "flooer": "g9",
+                    "phone": [
+                        {
+                            "phone": "0111"
+                        },
+                        {
+                            "phone": "1111"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "ar1",
+                    "img": "http://127.0.0.1:8000/images/Shop/1658676824793829755Shop.png",
+                    "link": "df';ds;fdsk;",
+                    "flooer": "g9",
+                    "phone": [
+                        {
+                            "phone": "0111"
+                        },
+                        {
+                            "phone": "1111"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "ar1",
+                    "img": "http://127.0.0.1:8000/images/Shop/1658676825597566504Shop.png",
+                    "link": "df';ds;fdsk;",
+                    "flooer": "g9",
+                    "phone": [
+                        {
+                            "phone": "0111"
+                        },
+                        {
+                            "phone": "1111"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ar2",
+            "desc": "fgf",
+            "img": "http://127.0.0.1:8000/images/category/1658676762177966913category.png",
+            "department_name": "التسوق",
+            "department_desc": "تجربة تسوق فريدة تحت سقف واحد",
+            "department_img": "http://127.0.0.1:8000/images/department/1658492584113836295department.png",
+            "shops": []
+        },
+        {
+            "id": 3,
+            "name": "ar2",
+            "desc": "fgf",
+            "img": "http://127.0.0.1:8000/images/category/16586767651675086405category.png",
+            "department_name": "التسوق",
+            "department_desc": "تجربة تسوق فريدة تحت سقف واحد",
+            "department_img": "http://127.0.0.1:8000/images/department/1658492584113836295department.png",
+            "shops": [
+                {
+                    "id": 5,
+                    "name": "ar1",
+                    "img": "http://127.0.0.1:8000/images/Shop/16586769621015987157Shop.png",
+                    "link": "df';ds;fdsk;",
+                    "flooer": "g9",
+                    "phone": [
+                        {
+                            "phone": "0111"
+                        },
+                        {
+                            "phone": "1111"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

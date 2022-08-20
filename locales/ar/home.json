@@ -1,0 +1,196 @@
+{
+    "navbarImg": "https://raw.githubusercontent.com/vemonser/photos/718d038d3c9b763e4a4f1b561442d7da4d38900f/logoColoredCenter.svg",
+    "navbarImgOnHoverLtr": "https://raw.githubusercontent.com/vemonser/photos/d590d8a57c012d7b20e13ab3ac2598f07f2191a3/logoTextOnly.svg",
+    "navbarImgOnHoverRtl": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/logoTextOnly.svg",
+    "navbarLinks": [
+        {
+            "name": "الرئيسية",
+            "route": "/"
+        },
+        {
+            "name": "الأقسام",
+            "route": "/departments"
+        },
+        {
+            "name": "من نحن",
+            "route": "/about"
+        },
+        {
+            "name": "الخرائط الداخلية",
+            "route": "/maps"
+        },
+        {
+            "name": "تواصل معنا",
+            "route": "/contact"
+        }
+    ],
+    "NavIcon": [
+        {
+            "id": "2",
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/instagramCircle.svg",
+            "route": "https://www.instagram.com",
+            "hover": "#fa6800",
+            "initial": " #3c21336b"
+        },
+        {
+            "id": "1",
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/twitterCircle.svg",
+            "route": "https://www.twitter.com",
+            "hover": "#fa6800",
+            "initial": " #3c21336b"
+        },
+        {
+            "id": "0",
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/facebookCircle.svg",
+            "route": "https://www.facebook.com",
+            "hover": "#fa6800",
+            "initial": " #3c21336b"
+        }
+    ],
+    "MallInNumbers": [
+        {
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/parking.svg",
+            "iconNumber": "520",
+            "iconDescription": "موقف سيارة"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/24-hours.svg",
+            "iconNumber": "20",
+            "iconDescription": "ساعات العمل"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/cube.svg",
+            "iconNumber": "M2 66.000+",
+            "iconDescription": "مسطح البناء"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/building.svg",
+            "iconNumber": "50",
+            "iconDescription": "الخبرة"
+        }
+    ],
+    "aboutMalltitle": "العامر مول",
+    "aboutAlAmer": [
+        {
+            "aboutMallDescription": "صمم كل ركن من أركان \" العامر مول \"  ليكون واجهة استثنائية جديدة لإلهام والاستمتاع والتسوق والتفاعل والراحة بتصميم حديث وفق أفضل المواصفات العالمية ليعلن عن مفهوم جديد لمراكز التسوق والترفيه في الأحياء والمنطقة "
+        },
+        {
+            "aboutMallDescription": "لننشئ تجربة فريدة تأخذكم لخوض تجارب جديدة ممتعة في التسوق والترفيه."
+        }
+    ],
+    "patternBg": "https://github.com/vemonser/photos/blob/main/grey%20bg-01.png?raw=true",
+    "alAmerCircle": "https://github.com/vemonser/photos/blob/main/al%20amer%20circle.png?raw=true",
+    "btnReadMore": "اقرأ المزيد",
+    "departments": "الأقســـــام",
+    "departmentsDescription": "استكشاف اقسام مول العامر المختلفة",
+    "ourPartners": "شركاؤنا",
+    "ourNew": "جديدنا",
+    "ourNewDescription": "اكتشف جديد العامر مول",
+    "newslatter": "اشترك بنشرتنا لمعرفة جديدنا دائما",
+    "newslatterButton": "اشترك",
+    "placeHolderNewslatter": "البريدالإلكتروني",
+    "contactTitle": "تواصل معنا",
+    "contactDescription": "للاستفسارات والاقتراحات اترك لنا رسالة",
+    "leaveMessage": "اترك لنا رسالة",
+    "cards": [
+        {
+            "id": "0",
+            "icon": "",
+            "title": "ساعات العمل",
+            "desc": "من السبت للربوع علي قناتكم المفضلة سبيستون"
+        },
+        {
+            "id": "1",
+            "icon": "",
+            "title": "عنواننـا",
+            "desc": "45 شارع المجانين الزاوية الحمرا جمب اندرية للكبدة"
+        },
+        {
+            "id": "2",
+            "icon": "",
+            "title": "ارقامنـا",
+            "phones": [
+                {
+                    "id": "0",
+                    "num": "02181482154"
+                },
+                {
+                    "id": "0",
+                    "num": "02181482154"
+                }
+            ]
+        }
+    ],
+    "name": "الاسم",
+    "email": "البريدالإلكتروني",
+    "subject": "عنوان الرسالة",
+    "message": "الرسالة",
+    "sendMessage": "ارسل رسالتك",
+    "mapTitle": "الخرائط الداخلية",
+    "f0": "الدور الارضي",
+    "f1": "الدور الاول",
+    "f2": "الدور الثاني",
+    "f3": "السطح الخارجي",
+    "mapkeyTitle":"Map Key",
+    "colorskeyTitle":"Colors Key",
+    "colorsKey": [
+        {
+            "id":"0",
+            "floor": "S22",
+            "storeName": "Store name"
+        },
+        {
+            "id":"1",
+            "floor": "S21",
+            "storeName": "Store name"
+        },
+        {
+            "id":"2",
+            "floor": "S20",
+            "storeName": "Store name"
+        },
+        {
+            "id":"3",
+            "floor": "S19",
+            "storeName": "Store name"
+        },
+        {
+            "id":"4",
+            "floor": "S19",
+            "storeName": "Store name"
+        },
+        {
+            "id":"5",
+            "floor": "S19",
+            "storeName": "Store name"
+        },
+        {
+            "id":"5",
+            "floor": "S19",
+            "storeName": "Store name"
+        }
+
+    ],
+    "mapKeyDesc": [
+        {
+            "id":"0",
+            "color": "green",
+            "colorDesc": "lorem Ipsum"
+        },
+        {
+            "id":"1",
+            "color": "purple",
+            "colorDesc": "lorem Ipsum"
+        },
+        {
+            "id":"2",
+            "color": "yellow",
+            "colorDesc": "lorem Ipsum"
+        },
+        {
+            "id":"3",
+            "color": "green",
+            "colorDesc": "lorem Ipsum"
+        }
+    ]
+}
