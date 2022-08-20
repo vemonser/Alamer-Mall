@@ -4,12 +4,12 @@ import contactHero from "../../public/images/departments/Vector Smart Object1 co
 import useTranslation from "next-translate/useTranslation";
 
 
-export default function imgOverLay() {
+export default function ImgOverLay() {
     const { t } = useTranslation("home");
     return (
 
         <Flex h={"70vh"} w={"100%"} pos="relative">
-            <Image src={contactHero} layout="fill" objectFit="cover" objectPosition={" top top "} />
+            <Image src={contactHero} alt="hero image overlay" layout="fill" objectFit="cover" objectPosition={" top top "} />
             <Box >
                 <Flex pos={"absolute"} dir="rtl"
                     top="0" left="0" right="0" bottom="0" direction={"column"} mx="auto"

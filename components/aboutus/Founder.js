@@ -20,19 +20,19 @@ export default function Founder({ currentDir }) {
                 </Text>
             </Box> */}
             <Box pos={"relative"} w={"100%"}  mb={"-7"} _after={{ position: "absolute", width: "50%", height: "15px", content: `""`, backgroundColor: "#fa6800", borderRadius: "20px 0 0 20px", right: "0", bottom: "-15px" }}>
-                <Image src={imgFullWidth} objectFit="cover" layout="responsive" />
+                <Image src={imgFullWidth} alt="alamer mall image" objectFit="cover" layout="responsive" />
             </Box>
             <Box overflow={"hidden"} w={"100%"} dir={currentDir}>
                 <Heading as="h1" maxW={"80vw"} mx={"auto"} fontFamily={"bukrabold"} pos={"relative"} top={"10vw"} color="#3c2133" zIndex="10" _after={{ position: "absolute", width: ["20%", "8%"], height: "7px", content: `""`, backgroundColor: "#fa6800", borderRadius: "20px", right: "0", bottom: "-25px" }}>
                     {t("ourjourney")}
                 </Heading>
-                <Image src={imgCircles} layout="responsive" />
+                <Image src={imgCircles} alt="our journy image" layout="responsive" />
             </Box>
             <Box w={"100%"}  dir={currentDir} display="block" >
                 <Heading as="h1" maxW={"80vw"} mx={"auto"} fontFamily={"bukrabold"} pos={"relative"} top={"10vw"} color="#3c2133" zIndex="10" _after={{ position: "absolute", width: ["20%", "8%"], height: "7px", content: `""`, backgroundColor: "#fa6800", borderRadius: "20px", right: "0", bottom: "-25px" }}>
                     {t("logoTitle")}
                 </Heading>
-                <Image src={AboutLogo} layout="responsive"   />
+                <Image src={AboutLogo} alt="about identity image" layout="responsive"   />
             </Box>
         </>
     )

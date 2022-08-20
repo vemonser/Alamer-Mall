@@ -62,7 +62,7 @@ export default function AboutusBrief({ currentDir }) {
           </Heading>
           <Text fontSize={["md", "md"]} fontFamily={"bukralight"} mx={4}>
             {arDataFile.BriefDescription.map((data) => {
-              return <Text py={1}>{data.desc}</Text>;
+              return <Text py={1} key={data.id}>{data.desc}</Text>;
             })}
           </Text>
         </Box>

@@ -84,7 +84,7 @@ export default function Partners({ currentDir }) {
                     opacity="0.5"
                     filter="grayscale(100%)"
                     transition="all 500ms ease"
-                    _hover={{ filter: "grayscale(0%)" ,opacity:"1"}}
+                    _hover={{ filter: "grayscale(0%)", opacity: "1" }}
                   >
                     <a
                       target="_blank"
@@ -92,6 +92,7 @@ export default function Partners({ currentDir }) {
                       rel="noopener noreferrer"
                     >
                       <Image
+                        alt="partners image"
                         src={logo.img}
                         width={300}
                         height={160}

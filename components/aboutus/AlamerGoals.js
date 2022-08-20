@@ -20,10 +20,10 @@ export default function AlamerGoals({ currentDir }) {
                 </Box>
                 <Box pos={"absolute"} top="0" right="0">
 
-                    <Image src={AlamerGoalImg} />
+                    <Image src={AlamerGoalImg} alt="our goals image"/>
                 </Box>
                 <Box as={motion.div} pos={"absolute"} w="20%" height={"20%"} bottom={["-20%", "-10%", "20%", "20%"]} right={["39%"]} whileHover={{ opacity: [1, 0,  1], transition: " all 500ms ease  " }}   >
-                    <Image src={logo} layout="responsive" />
+                    <Image src={logo} alt="logo image" layout="responsive" />
                 </Box>
             </Box>
 

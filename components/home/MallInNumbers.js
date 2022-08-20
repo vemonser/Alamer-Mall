@@ -54,7 +54,7 @@ export default function MallInNumbers({ currentDir }) {
                     {data.MallInNumbers.map(icon => {
                         return (
                             <Flex flexDirection={"column"} justifyContent={"center"} alignItems={"center"} fontFamily={"bukrabold"} key={icon.icon}>
-                                <Image src={icon.icon} width={"50px"} height={"50px"} />
+                                <Image src={icon.icon}  alt="alamer mall icon" width={"50px"} height={"50px"} />
                                 <Heading fontFamily={"bukrabold"} fontSize={"3xl"} w={"max-content"}>{icon.iconNumber}</Heading>
                                 <Text>{icon.iconDescription}</Text>
                             </Flex>

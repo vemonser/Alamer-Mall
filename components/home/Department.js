@@ -28,7 +28,7 @@ export function FlexBig({ linkSrc, src, heading, text }) {
         flex={{ md: "4 1 39%", xl: "4 1 39%" }}
         _hover={{ flex: ["1 1", "6 1 64%", "6 1 64%"], opacity: 1 }}
       >
-        <Image src={src} layout={"fill"} objectFit={"cover"} />
+        <Image src={src} alt="department image" layout={"fill"} objectFit={"cover"} />
         <Flex
           as={motion.div}
           pos={"absolute"}
@@ -84,7 +84,7 @@ export function FlexSmall({ linkSrc, src, heading, text }) {
         cursor="pointer"
         _hover={{ flex: ["1 1", "4 1 59%", "4 1 59%"], opacity: 1 }}
       >
-        <Image src={src} layout={"fill"} objectFit={"cover"} />
+        <Image src={src} layout={"fill"} alt="department image" objectFit={"cover"} />
         <Flex
           as={motion.div}
           pos={"absolute"}

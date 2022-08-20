@@ -30,7 +30,7 @@ export default function Map({ currentDir }) {
             <Box w={"90vw"} mx="auto" p={8} pos="relative"  >
                 <Flex flexDir={"column"} borderRadius="30px" overflow={"hidden"} zIndex="20" boxShadow='lg' >
                     <Box w={"60%"} display="block" >
-                        <Image src={currentMap} layout="responsive" />
+                        <Image src={currentMap} alt="current floor" layout="responsive" />
                     </Box>
                 </Flex>
                 <Box pos="absolute" right={"10%"} top={10}>

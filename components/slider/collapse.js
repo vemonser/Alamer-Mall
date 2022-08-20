@@ -41,7 +41,7 @@ export default function Collapse() {
         <>
             {/* */}
             <Flex pos={'relative'} width={'100%'} height="75vh"  >
-                <Image src={shoppingBg} layout="fill" objectFit="cover" objectPosition={" top top "} />
+                <Image alt="department image" src={shoppingBg} layout="fill" objectFit="cover" objectPosition={" top top "} />
                 <Box >
                     <Flex pos={"absolute"} dir="rtl"
                         top="0" left="0" right="0" bottom="0" direction={"column"} mx="auto"
@@ -72,20 +72,20 @@ export default function Collapse() {
             <Box h="400px" maxW={"100vw"} >
                 <Flex gap={3} justifyContent="center" alignItems={"center"}  >
                     <Box flex="1" w={"100%"} height="400px" pos="relative" opacity={"0.5"} >
-                        <Image src={currentDepartment === 0 ? shopping.data[shoppingCount].img : shopping.data[currentDepartment - 1].img} layout="fill" objectFit="cover" objectPosition={"0% 20%"} />
+                        <Image alt="department image" src={currentDepartment === 0 ? shopping.data[shoppingCount].img : shopping.data[currentDepartment - 1].img} layout="fill" objectFit="cover" objectPosition={"0% 20%"} />
                     </Box>
                     <Box flex="2" w={"100%"} height="400px" pos="relative"   >
                         <Box  top={"40%"} left={"-10%"} pos="absolute" zIndex={10} cursor={"pointer"} bgColor="#fff" px={6} py={6} opacity="0.5" onClick={leftClickHandle}>
-                            <Image src={leftArrow} />
+                            <Image alt="department image" src={leftArrow} />
                         </Box>
 
-                        <Image src={shopping.data[currentDepartment].img} layout="fill" objectFit="cover" objectPosition={"0% 20%"} />
+                        <Image alt="department image" src={shopping.data[currentDepartment].img} layout="fill" objectFit="cover" objectPosition={"0% 20%"} />
                         <Box top={"40%"} right={"-10%"} pos="absolute" cursor={"pointer"} zIndex={10} bgColor="#fff" px={6} py={6} opacity="0.5" onClick={rightClickHandle}>
-                            <Image src={rightArrow} />
+                            <Image alt="department image" src={rightArrow} />
                         </Box>
                     </Box>
                     <Box flex="1" w={"100%"} height="400px" pos="relative" opacity={"0.5"} >
-                        <Image src={currentDepartment === shoppingCount ? shopping.data[0].img : shopping.data[currentDepartment + 1].img} layout="fill" objectFit="cover" objectPosition={"0% 20%"} />
+                        <Image alt="department image" src={currentDepartment === shoppingCount ? shopping.data[0].img : shopping.data[currentDepartment + 1].img} layout="fill" objectFit="cover" objectPosition={"0% 20%"} />
                     </Box>
                 </Flex>
 

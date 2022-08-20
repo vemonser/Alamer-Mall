@@ -93,13 +93,13 @@ export default function Header({ currentDir }) {
                 notHoverd: { x: 0 },
                 hoverd: { x: -40 }
               }}>
-                <Image src={data.navbarImg} height={"125"} width={"90"} layout='responsive' />
+                <Image src={data.navbarImg} alt="navbar logo" height={"125"} width={"90"} layout='responsive' />
               </Box>
               <Box as={motion.div} pos={"absolute"} w={"100px"} initial={false} variants={{
                 notHoverd: { x: 100, opacity: 0, y: 25 },
                 hoverd: { x: 70, opacity: 1, y: 25 }
               }} >
-                <Image src={textHover} layout='responsive' />
+                <Image alt="alamer text onHover" src={textHover} layout='responsive' />
               </Box>
             </Box>
           </Box>

@@ -39,7 +39,7 @@ export default function Footer({ currentDir }) {
                     </Flex>
                     <Flex pt={10}>
                         <Box width={"40px"}>
-                            <Image src={TiktokImg} width={"218"} height={"218"} layout={"responsive"} />
+                            <Image src={TiktokImg} alt="tiktok logo" width={"218"} height={"218"} layout={"responsive"} />
                         </Box>
                         <Box w="40px" h="40px" border="1px solid #cecece" borderRadius={"lg"}>
                             <Facebook width="40px" height="40px" colorSvg="#fff" />

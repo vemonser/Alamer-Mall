@@ -14,7 +14,7 @@ export default function ContactUsForm({ currentDir }) {
     }
     return (
         <Box w="100%" h={"550px"} pos="relative" top={"-120px"} mb={"-120px"}>
-            <Image src={pattern} width={5680} height={2998} layout="fill" />
+            <Image src={pattern} width={5680} height={2998} layout="fill" alt='background pattern' />
 
             <Box maxW={"70vw"} dir={currentDir} mx="auto" mb={"-120px"} pt={"10%"}>
                 <Heading color="#3c2133" fontSize={"2xl"} fontFamily={"bukrabold"} py={6}>{t("leaveMessage")}</Heading>

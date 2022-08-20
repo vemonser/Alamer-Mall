@@ -126,9 +126,9 @@ export default function OurNew({ currentDir }) {
         >
           {data.data.map((news) => {
             return (
-              <Box pos={"relative"}>
-                <Box
-                  key={news.id}
+              <Box pos={"relative"}  key={news.id}>
+                <Box 
+                
                   className={`keen-slider__slide number-slide${news.id}`}
                   pt={"20px"}
                 >
@@ -139,6 +139,7 @@ export default function OurNew({ currentDir }) {
                     overflow={"hidden"}
                   >
                     <Image
+                    alt="our new image"
                       src={news.img}
                       width={"4031"}
                       height={"3024"}

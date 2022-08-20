@@ -27,7 +27,7 @@ export default function LoadingScreen() {
         height="12"
         display="flex"
       >
-        <Image src={data.navbarImg} layout="fill" />
+        <Image src={data.navbarImg} alt="logo " layout="fill" />
       </Box>
     </Container>
   );
