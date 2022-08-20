@@ -1,4 +1,4 @@
-import ContactUsForm from "../../components/contact/contactUsForm";
+import ContactUsForm from "../../components/contact/ContactUsForm";
 import ImgOverLay from "../../components/contact/ImgOverLay";
 import Map from "../../components/contact/Map";
 import { useRouter } from "next/router";
